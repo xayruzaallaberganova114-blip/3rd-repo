@@ -1,5 +1,54 @@
-*{
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
+  #container{
+    max-width: 1200px;
+    
+  }
+  body {
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+ }
+  section {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    gap: 80px;
+  }
+  .daniel_text {
+    max-width: 500px;
+  }
+  
+  .daniel_text h2 {
+    margin-bottom: 15px;
+  }
+  
+  .write {
+    margin: 15px 0;
+  }
+ .btn {
+    padding: 10px 20px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  .daniel-img img {
+    width: 300px;
+  }
+   footer {
+    text-align: center;
+    padding: 20px;
+    background: #f1f1f1;
+  } 

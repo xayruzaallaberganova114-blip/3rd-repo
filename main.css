@@ -8,14 +8,14 @@ body {
   font-family: sans-serif;
   background: linear-gradient(to right, #e31dc9, #f98ad84a);
   color: #fff;
-  font-size: 50px;
+  font-size: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 header {
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .links-container {
   margin: 50px 0;
